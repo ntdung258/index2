@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-left: 165px;
+    padding-right: 165px;
+}
+.col-md-4{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 18px;
+}
+.nav-link ul{
+    list-style: none;
+    padding: 0;
+}
+.nav-link ul li {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #505F98;
+    width: 33%;
+    float: left;
+}
+.nav-title span{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #37447E;
+}
+.nav-button button{
+    width: 160px;
+    height: 26px;
+    background-color:#111B47;
+}
+.nav-button button span{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero{
+    width: 100%;
+    height:1161px;
+    position: relative;
+}
+.col-md-9{
+    background-image: url('Path.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0; 
+    z-index: -999;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.hero-text-box{
+    position: absolute; 
+    top: 15%; 
+    transform: translateY(50%);
+    padding-left: 165px;
+}
+.hero-text-box p{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.hero-text-box span{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.hero-img{
+    position: absolute;
+    right: 0;
+    bottom: 65%; 
+    transform: translateY(50%);
+}
+.hero-img img{
+    position: absolute;
+    right: 0;
+}
+.hero-text-box-button{
+    margin-top: 50px;
+}
+.button-purchase{
+    width: 189.13px;
+    height: 36px;
+    background-color:#091133;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.button-learn-more{
+    width: 189.13px;
+    height: 36px;
+    border:2px solid #091133;
+    background-color:#FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #091133;
+}
+
